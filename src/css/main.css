@@ -159,21 +159,21 @@ select {
 
 .main {
     opacity: 0;
-    animation: animation-in 1s forwards 0.1s cubic-bezier( 0.86, 0, 0.07, 1 );
+    animation: animation-in 0.5s forwards 0.1s cubic-bezier( 0.86, 0, 0.07, 1 );
 }
 
 .main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
 	opacity: 0;
-	animation: animation-in 1s forwards 0.2s cubic-bezier( 0.86, 0, 0.07, 1 );
+	animation: animation-in 0.5s forwards 0.2s cubic-bezier( 0.86, 0, 0.07, 1 );
 }
 
 .main p, .main ul, .main ol , .main blockquote , .main pre , .main table , .main hr , .main label {
 	opacity: 0;
-	animation: animation-in 1s forwards 0.3s cubic-bezier( 0.86, 0, 0.07, 1 );
+	animation: animation-in 0.5s forwards 0.3s cubic-bezier( 0.86, 0, 0.07, 1 );
 }
 
 input, textarea, select, button {
 	opacity: 0;
-	animation: animation-in 1s forwards 0.5s cubic-bezier( 0.86, 0, 0.07, 1 );
+	animation: animation-in 0.5s forwards 0.5s cubic-bezier( 0.86, 0, 0.07, 1 );
 
 }
